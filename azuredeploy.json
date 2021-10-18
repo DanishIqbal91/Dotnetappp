@@ -23,17 +23,17 @@
         {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2015-08-01",
-            "name": "frankdemo42434678",
+            "name": "frankdemo4243467",
             "location": "[resourceGroup().location]",
             "tags": {
                 "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/frankdemoplan')]": "Resource",
-                "displayName": "frankdemo42434678"
+                "displayName": "frankdemo4243467"
             },
             "dependsOn": [
                 "Microsoft.Web/serverfarms/frankdemoplan"
             ],
             "properties": {
-                "name": "frankdemo42434678",
+                "name": "frankdemo4243467",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'frankdemoplan')]"
             }
         }
